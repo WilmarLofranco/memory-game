@@ -34,7 +34,7 @@ function PokemonList() {
     <div className='header'>
       <h1>PokeMemory Game</h1>
       <h3>by Will Moore</h3>
-      <p>Get points by clicking on an image but don't click on any more than once!</p>
+      <p>Get points by clicking on a pokemon but don't click on any more than once!</p>
       <div className='score'>
         <p>Score: {score}</p>
         <p>Best Score: {bestScore}</p>
