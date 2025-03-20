@@ -1,0 +1,63 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Main Container */
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  padding: 10px;
+  border-bottom: 5px solid #2a75bb;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header h3 {
+  font-size: 1.2rem;
+ 
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+/* Score Section */
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top:
+}
+
+.score p {
+  font-weight: 1000;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pokemon-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
